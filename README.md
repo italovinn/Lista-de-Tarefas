@@ -1,0 +1,1 @@
+Esse foi meu site criado por HTML, CSS e Javascript feito pra materia de Desenvolvimento e Interfaces Web do curso de Engenharia de Software. Com o objetivo de trazer a criatividade e a logica por traz do Front-end e com as atividades Webs.
