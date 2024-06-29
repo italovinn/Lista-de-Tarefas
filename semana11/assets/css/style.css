@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #515151;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+main {
+    background-color: #808080;
+    padding: 16%;
+    align-items: center;
+    text-align: center;
+}
+
+.listadetarefas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lista {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+
+#tarefa {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+}
+
+#adicionartarefa {
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: none;
+    background-color: #549e00;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#adicionartarefa:hover {
+    transition: 0.5s;
+    background-color: #226c00;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    max-width: 300px;
+}
+
+li {
+    background-color: #574f4f;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+}
+
+li.completed {
+    text-decoration: line-through;
+    color: #ffffff;
+}
+
+button.remove-btn, button.complete-btn {
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button.remove-btn {
+    background-color: #dc3545;
+    color: white;
+}
+
+button.complete-btn {
+    background-color: #007bff;
+    color: white;
+}
+
+button.remove-btn:hover {
+    background-color: #c82333;
+}
+
+button.complete-btn:hover {
+    background-color: #0056b3;
+}
+
+footer{
+    text-align: center;
+}
+
+h2{
+    padding: 12px;
+    font-size: medium;
+    color: white;
+    background-color: #242424;
+}
